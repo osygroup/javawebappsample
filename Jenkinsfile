@@ -18,7 +18,7 @@ node {
   
   stage('deploy') {
     def resourceGroup = 'terraformRG' 
-    def webAppName = 'java999'
+    def webAppName = 'java888'
     // login Azure
     withCredentials([azureServicePrincipal('AzureSP')]) {
       sh '''
